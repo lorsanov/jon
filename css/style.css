@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 856px;
+    margin: 0 auto;
+}
+.header-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-list__link{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    margin-left: 33px;
+    text-decoration: none;
+}
+.author{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.author-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.author-title{
+    margin: 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+.author-descr{
+    margin: 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+    margin-bottom: 38px;
+}
+.button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.author-button{
+    padding: 9px 21px 17px 21px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+}
+.recent{
+    padding-top: 7px;
+    padding-bottom: 39px;
+}
+.recent-title__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recent-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recent-block{
+    padding: 24px 21px 7px 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.recent-title{
+    margin: 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.recent-link{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+.recent-block__title{
+    margin: 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 17px;
+}
+.recent-date, .recent-dashboard{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin-right: 30px;
+}
+.recent-block__descr{
+    margin: 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+.work{
+    padding: top 15px;
+    padding-bottom: 32px;
+}
+.work-title{
+    margin: 0;font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;   
+    margin-bottom: 22px;
+}
+.work-block{
+    margin-bottom: 98px;
+    display: flex;
+    align-items: flex-start;
+}
+.work-image{
+    margin-right: 18px;
+}
+.work-block__title{
+    margin: 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+.work-date{
+    padding: 5px 10px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    background: #142850;
+    border-radius: 16px;
+    margin-right: 26px;
+}
+.work-dashboard{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+
+}
+.work-block__descr{
+    margin: 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+
+}
+.footer-wrapper{
+    text-align: center;
+}
+.footer-link{
+    text-decoration: none;
+}
+.footer-image{
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-bottom: 26px;
+}
+.copyright{
+    margin: 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+
+}
+.footer{
+    padding-bottom: 54px;
+}
